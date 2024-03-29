@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,81 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+/* App.css */
+
+.App {
+  text-align: center;
+  background-color: #007bff;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  
+  background-image: url( https://wallpapers.com/images/hd/beautiful-summer-7k2s3ga6qc30xwcz.jpg );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+  background-repeat: no-repeat;
+}
+
+.weather-container {
+  margin-top: 20px;
+}
+
+.temperature, .weather-description {
+  margin: 10px 0;
+}
+
+.search-container {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.history-container {
+  margin-top: 20px;
+}
+
+.history-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history-container ul li {
+  margin-bottom: 8px;
+}
+
+.App-link {
+  color: #61dafb;
 }
